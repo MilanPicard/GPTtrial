@@ -314,13 +314,6 @@ saveRDS(metrics_for_2, "metrics_for_2.rds")
 saveRDS(metrics_for_3, "metrics_for_3.rds")
 saveRDS(metrics_for_4, "metrics_for_4.rds")
 saveRDS(metrics_for_5, "metrics_for_5.rds")
-
-plot_tile(metrics_for_1[[1]], x = "cost", y = "gamma", facet_var = "N_of_features", title = "xgboost")
-plot_tile(metrics_for_3[[1]], x = "cost", y = "gamma", facet_var = "N_of_features", title = "xgboost")
-plot_tile(metrics_for_5[[1]], x = "cost", y = "gamma", facet_var = "N_of_features", title = "xgboost")
-
-plot_tile(FULL_DATA_small_sets_selected_tuning_parsed[[1]][[2]], x = "distance", y = "kernel", facet_var = "N_of_features", title = "xgboost")
-FULL_DATA_small_sets_selected_tuning_parsed[[1]][[1]]
 ```
 
 ```{r}
